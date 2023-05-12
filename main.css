@@ -39,6 +39,7 @@ background: linear-gradient(#0E1765,#350E58);
 width: 436px;
 height: 608px;
 margin-top:0;
+opacity: 0.6;
 }
 .carousel .carousel-item .card1 img{
   width: 90%;
@@ -53,14 +54,22 @@ margin-top:0;
   margin-left: 220px;
 
 }
-.social{
-  text-align: center;
-  margin-top: -80px;
+.card1{
+background-image: url(img/miles2.png);
+background-size: 430px auto;
+background-repeat: no-repeat;
+opacity: 0.2;
+width: 100%;
+height: 100%;
+
 }
-.social a{
-  color:#000;
-  font-size: 25px;
-  padding: 5px;
-  border:2px solid #000;
-  border-radius: 5px;
-}
+.card2{
+  background-image: url(img/gwen2.png);
+  background-size: 530px auto;
+  background-position: left;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  
+  }
