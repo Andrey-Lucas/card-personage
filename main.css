@@ -14,7 +14,7 @@ body{
   width:436px;
   
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 20px;
   margin-top: -250px;
 
 }
@@ -23,16 +23,8 @@ body{
  
 }
 .carousel .carousel-item h3{
-  margin: 0;
-  margin-top:-300px;
-  font-weight: bold;
-  
-  padding: 200px 5px;
-  color:#000;
-  font-size: 2em;
-  box-sizing: border-box;
-  text-align: center;
-  border-radius: 20px;
+ color: azure;
+ font-family: 'Oswald', sans-serif;
 }
 .carousel .carousel-item{
 background: linear-gradient(#0E1765,#350E58);
@@ -52,24 +44,64 @@ opacity: 0.6;
 .carousel .carousel-item .card3 img{
   width: 55%;
   margin-left: 220px;
+}
+.carousel .carousel-item .card4 img{
+  width: 65%;
+  margin-left: 200px;
+}
+.carousel .carousel-item .card5 img{
+  width: 55%;
+  margin-left: 220px;
+}
+.carousel .carousel-item .card6 img{
+  width: 55%;
+  margin-left: 220px;
 
 }
-.card1{
-background-image: url(img/miles2.png);
-background-size: 430px auto;
-background-repeat: no-repeat;
+.card1 .bg{
+width: 85%;
+height: 100%;
+margin-top: -145px;
+margin-left: -170px;
+opacity: 0.2;
+padding: 0;
+
+}
+.card2 .bg2{
+  opacity: 0.2;
+  width: 190%;
+  height: 100%;
+  margin-top: -195px;
+  margin-left: -242px;
+  }
+
+.card3 .bg3{
+  opacity: 0.2;
+  width: 250%;
+  height: 100%;
+  margin-top: 40px;
+  margin-left:-350px;
+  }
+  
+.card4 .bg4{
+opacity: 0.2;
+width: 140%;
+height: 100%;
+margin-top: -96px;
+margin-left:-200px;
+  }
+.card5 .bg5{
 opacity: 0.2;
 width: 100%;
 height: 100%;
-
-}
-.card2{
-  background-image: url(img/gwen2.png);
-  background-size: 530px auto;
-  background-position: left;
-  background-repeat: no-repeat;
-  opacity: 0.2;
-  width: 100%;
-  height: 100%;
+margin-top: -160px;
+margin-left:-200px;
+  }
   
+.card6 .bg6{
+opacity: 0.2;
+width: 170%;
+height: 100%;
+margin-top: -90px;
+margin-left:-220px;
   }
